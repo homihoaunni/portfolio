@@ -387,18 +387,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #52d3aa;
-  /* IE9, iOS 3.2+ */
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
-  /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
-  /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 1080px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -409,7 +401,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home .text-inner {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 #fh5co-home .text-inner a {
   color: white;
@@ -504,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .fh5co-block > .overlay-darker {
   z-index: 8;
   opacity: .5;
-  background: #474747;
+  background: #000000;
   position: absolute;
   left: 0;
   right: 0;
@@ -529,8 +522,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
 }
 #fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
-  font-size: 50px;
-  color: #52d3aa;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
   margin-bottom: 30px;
   display: block;
 }
@@ -538,6 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   font-weight: 400;
 }
+
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
   opacity: 0;
   z-index: 9;
@@ -556,8 +551,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #52d3aa !important;
-  border: 2px solid #52d3aa !important;
+  background: #BBA8D1 !important;
+  border: 2px solid #BBA8D1 !important;
 }
 
 .watch-video {
@@ -865,12 +860,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #52d3aa;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #EDC4D8), color-stop(1, #B6AECF));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: -webkit-repeating-linear-gradient(top left, #EDC4D8 0%, #B6AECF 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right, #EDC4D8 0%, #B6AECF 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #EDC4D8 0%, #B6AECF 100%);
 }
 #fh5co-work a {
   color: rgba(255, 255, 255, 0.5);
@@ -1252,14 +1247,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #BBA8D1;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #BBA8D1;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
